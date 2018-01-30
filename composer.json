@@ -1,0 +1,25 @@
+{
+    "name": "h4kbas/just",
+    "description": "Simple and powerful php micro framework",
+    "type": "project",
+    "require": {
+        "twig/twig": "^2.4",
+        "gabordemooij/redbean": "^5.0",
+        "filp/whoops": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Just\\": "vendor/just/",
+            "Vendor\\": "vendor/"
+        }
+     },
+     
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hüseyin Akbaş",
+            "email": "h4kbas@gmail.com"
+        }
+    ]
+}
