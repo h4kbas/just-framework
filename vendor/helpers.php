@@ -1,4 +1,8 @@
 <?php
+use Just\Util\Lang, 
+	Just\Util\Fields,
+	Just\Core\Request,
+	Just\Core\Route;
 
 function session($get=false,$set=false){
 	if($get){
